@@ -149,32 +149,52 @@ a{
   left:-3vw;
   text-decoration: none;
   color:white;
+  height:0vw;
 }
 .kiji{
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   border-bottom: dotted 0.5vw #0099cc;
-}
-.kiji p{
-  font-size: 1vw;
-  display: inline-block;
+  display: flex;
+  width:80%;
   color:#000066;
 }
-.naiyou{
-  margin-left:5%;
+.hiniti{
+  font-size: 1vw;
+  color:#000066;
+  width:20%;
+  padding-left: 3vw;
 }
+.naiyou{
+  font-size:1vw;
+  margin-left:5%;
+  color: #000066;
+  width:60%;
+}
+
 @media(max-width:750px){
   .news-title{
     height: 3vw;
+    margin-top: 4vw;
     background-color: #0099cc;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right:5%;
   }
   .news-title h2{
     font-size: 2vw;
   }
+  .kiji{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: dotted 0.5vw #0099cc;
+  }
+  .hiniti{
+    font-size: 1.5vw;
+  }
+  .naiyou{
+    font-size:1.5vw;
+  }
 }
-
 /*---------------------home-------------------------*/
 /*---------------------member-------------------------*/
 .member{
@@ -323,7 +343,7 @@ a{
 
 
 /*---------------------member-------------------------*/
-/*---------------------study--------------------------*/
+/*---------------------about--------------------------*/
 .about{
   margin-top:5vw;
   color:#000066;
@@ -364,7 +384,7 @@ a{
   }
 }
 
-/*---------------------study--------------------------*/
+/*---------------------about--------------------------*/
 /*---------------------news2--------------------------*/
 .news-wrapper2{
   width:100%;
@@ -378,6 +398,27 @@ a{
   margin-left: 10%;
   margin-right: 10%;
 }
+.kiji1{
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: dotted 0.5vw #0099cc;
+  display: flex;
+  width:80%;
+  color:#000066;
+}
+.hiniti1{
+  font-size: 1vw;
+  color:#000066;
+  width:20%;
+  padding-left: 3vw;
+}
+.naiyou1{
+  font-size:1vw;
+  margin-left:5%;
+  color: #000066;
+  width:60%;
+}
+
 @media(max-width:750px){
   .news-title2{
     height: 3vw;
@@ -389,18 +430,16 @@ a{
   .news-title2 h2{
     font-size: 2vw;
   }
-  .kiji{
+  .kiji1{
     margin-left: 10%;
     margin-right: 10%;
     border-bottom: dotted 0.5vw #0099cc;
   }
-  .kiji p{
-    font-size: 2vw;
-    display: inline-block;
-    color:#000066;
+  .hiniti1{
+    font-size: 1.5vw;
   }
-  .naiyou{
-    margin-left:5%;
+  .naiyou1{
+    font-size:1.5vw;
   }
 }
 
