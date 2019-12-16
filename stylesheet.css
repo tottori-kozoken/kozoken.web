@@ -45,9 +45,9 @@ a{
 .header-right a:hover{
   border-bottom: solid 0.2vw #0099cc;
 }
-@media(max-width:2000px){
+@media(max-width:1000px){
   .header-right a{
-    font-size:2vw;
+    font-size:2.5vw;
   }
   #top-btn{
     margin-left: 12.5%;
