@@ -132,24 +132,32 @@ a{
   font-family: 'Noto Serif JP', sans-serif;
 }
 .news-title{
+  display:flex;
   height: 2vw;
   background-color: #0099cc;
   margin-left: 10%;
   margin-right: 10%;
 }
+.new-news{
+  width:50%;
+}
+.news-table{
+  width:50%;
+}
 .news h2{
+  margin-top:0vw;
+  margin-bottom: 0vw;
   font-size: 1.5vw;
   padding-left: 5%;
 }
 .news a{
   font-size: 1vw;
   float:right;
-  position: relative;
-  top:-3vw;
-  left:-3vw;
   text-decoration: none;
   color:white;
-  height:0vw;
+  height:100%;
+
+
 }
 .kiji{
   margin-left: 10%;
@@ -182,6 +190,9 @@ a{
   }
   .news-title h2{
     font-size: 2vw;
+  }
+  .news-title a{
+    font-size:1.5vw;
   }
   .kiji{
     margin-left: 10%;
