@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 5000,
+                });
+            });
+    </script>
   </head>
   <body>
     <!--   header       -->
@@ -43,8 +55,12 @@
           など多岐に亘ります。</P>
           </div>
           <div class="about-photo">
-            <img src="photo/作業.jpg" class="syashin3">
-            <img src="photo/実験.jpg" class="syashin3">
+            <div class="slider">
+            <img src="photo/tate.jpg" width="60%" height="40%" alt="">
+            <img src="photo/member.jpg" width="60%" height="40%" alt="">
+            <img src="photo/実験.jpg" width="60%" height="40%" alt="">
+            <img src="photo/作業.jpg" width="60%" height="40%" alt="">
+            </div>
           </div>
         </div>
       </div>
