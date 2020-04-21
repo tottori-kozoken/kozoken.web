@@ -375,23 +375,15 @@ a{
   margin-left: 18%;
 }
 .about-photo{
-  margin-left: 22%;
-  display: flex;
+  width:80%;
+  margin-left:10%;
 }
-.syashin3{
-  width:30%;
-  padding-left: 1vw;
-  padding-right: 1vw;
+.slider{
+
 }
 @media(max-width:750px){
   .about-naiyou{
     font-size: 1.6vw;
-  }
-  .about-photo{
-    display:block;
-  }
-  .syashin3{
-    width:70%;
   }
 }
 
