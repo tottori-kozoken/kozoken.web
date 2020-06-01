@@ -209,18 +209,19 @@ a{
 /*---------------------home-------------------------*/
 /*---------------------member-------------------------*/
 .member{
-  margin-left: 10%;
+  width:100%;
   color:#000066;
   display: flex;
 }
 .syashin{
-  width:50%;
+  width:60%;
 }
 .member-photo{
-  width:90%;
+  width:100%;
 }
 .member-list{
-  width:50%;
+  margin-left: 2%;
+  width:40%;
   display: flex;
 }
 .member-list1{
@@ -238,6 +239,7 @@ a{
 }
 .member-list2{
   width:50%;
+  margin-left: 5%;
 }
 .member-list2 p{
   font-size: 1vw;
@@ -258,11 +260,11 @@ a{
   }
   .member-photo{
     width:50%;
-    margin-left: 20%;
+    margin-left: 25%;
   }
   .member-list{
-    width:90%;
-    margin-left: 5%;
+    width:100%;
+    margin-left: 10%;
   }
   .member-list1 p{
     font-size: 2vw;
@@ -271,7 +273,7 @@ a{
     font-size: 2vw;
   }
   .member-list2{
-    margin-left: 2%;
+    margin-left: 0.1%;
   }
 }
 .staff-list{
