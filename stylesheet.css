@@ -182,17 +182,17 @@ a{
 
 @media(max-width:750px){
   .news-title{
-    height: 3vw;
+    height: 4.5vw;
     margin-top: 4vw;
     background-color: #0099cc;
     margin-left: 5%;
     margin-right:5%;
   }
   .news-title h2{
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .news-title a{
-    font-size:1.5vw;
+    font-size:2vw;
   }
   .kiji{
     margin-left: 10%;
@@ -200,10 +200,10 @@ a{
     border-bottom: dotted 0.5vw #0099cc;
   }
   .hiniti{
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
   .naiyou{
-    font-size:1.5vw;
+    font-size:2vw;
   }
 }
 /*---------------------home-------------------------*/
@@ -322,6 +322,13 @@ a{
   padding-left: 3vw;
 }
 @media(max-width:750px){
+  .member-list{
+    width:95%;
+    margin-left: 5%;
+  }
+  .member-list p{
+    font-size: 2.5vw;
+  }
   .staff-list{
     width:100%;
     margin-left: 0;
@@ -364,17 +371,17 @@ a{
 }
 .about-title{
   font-size: 1.4vw;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .about-block{
-  width:80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .about-naiyou{
-  width:70%;
+  width:90%;
   font-size: 1.2vw;
-  margin-left: 18%;
+  margin-left: 5%;
 }
 .about-photo{
   width:80%;
@@ -385,7 +392,7 @@ a{
 }
 @media(max-width:750px){
   .about-naiyou{
-    font-size: 1.6vw;
+    font-size: 2vw;
   }
 }
 
@@ -393,7 +400,6 @@ a{
 /*---------------------news2--------------------------*/
 .news-wrapper2{
   width:100%;
-  height:30vw;
   font-family: 'Noto Serif JP', sans-serif;
 }
 .news-title2{
@@ -426,14 +432,14 @@ a{
 
 @media(max-width:750px){
   .news-title2{
-    height: 3vw;
+    height: 4vw;
     margin-top: 4vw;
     background-color: #0099cc;
     margin-left: 5%;
     margin-right:5%;
   }
   .news-title2 h2{
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .kiji1{
     margin-left: 10%;
@@ -441,10 +447,10 @@ a{
     border-bottom: dotted 0.5vw #0099cc;
   }
   .hiniti1{
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
   .naiyou1{
-    font-size:1.5vw;
+    font-size:2vw;
   }
 }
 
