@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+html{
+}
+
+body{
+  color:#8a2be2;
+  margin:0;
+  font-family:serif;
+}
+
+a{
+  text-decoration: none;
+}
+.member-page{
+  width:100%;
+}
+
+.member{
+  width:100%;
+}
+.member-title{
+  margin-top:5%;
+  font-size: 1vw;
+  letter-spacing: 2vw;
+ text-align: center;
+}
+.member-list{
+  text-align: center;
+  margin-top: 5%;
+}
+.list{
+  margin-top: 4%;
+}
+h2{
+  font-size: 1.5vw;
+}
+h3{
+  font-size: 1vw;
+}
+
+.copy-write{
+  text-align: center;
+  font-size: 0.2vw;
+  margin-top: 25%;
+}

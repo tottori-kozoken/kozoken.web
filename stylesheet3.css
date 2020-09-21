@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+html{
+}
+
+body{
+  color:#8a2be2;
+  margin:0;
+  font-family:serif;
+}
+
+a{
+  text-decoration: none;
+}
+.news-page{
+  width:100%;
+}
+
+.news{
+  width:100%;
+}
+.news-title{
+  margin-top:5%;
+  font-size: 1vw;
+  letter-spacing: 2vw;
+ text-align: center;
+ padding-left: 2vw;
+}
+.kiji{
+  text-align: center;
+  margin-top: 5%;
+}
+.list{
+  margin-top: 4%;
+}
+h2{
+  font-size: 1.5vw;
+}
+p{
+  font-size: 1vw;
+}
+
+.copy-write{
+  text-align: center;
+  font-size: 0.2vw;
+  margin-top: 25%;
+}
