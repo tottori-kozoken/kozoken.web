@@ -185,6 +185,11 @@ a{
       opacity:1;
     }
   }
+  .copy-write{
+    text-align: center;
+    font-size: 1vw;
+  }
+
 }
 
 .copy-write{
