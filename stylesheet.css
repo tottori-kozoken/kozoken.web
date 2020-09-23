@@ -106,7 +106,7 @@ a{
     opacity:1;
   }
 }
-@media(max-width:1000px){
+@media(max-width:750px){
   .hello{
     font-size: 2vw;
     letter-spacing: 2vw;
