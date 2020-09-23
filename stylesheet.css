@@ -106,9 +106,9 @@ a{
     opacity:1;
   }
 }
-@media(max-width:750px){
+@media(max-width:1000px){
   .hello{
-    font-size: 1vw;
+    font-size: 2vw;
     letter-spacing: 2vw;
     position: absolute;
     top: 30%;
@@ -122,8 +122,8 @@ a{
     animation:fadeIn 8s ease 0s 1 normal;
   }
   .E-title{
-    font-size: 1.5vw;
-    letter-spacing: 0.5vw;
+    font-size: 2vw;
+    letter-spacing: 1vw;
     position: absolute;
     top: 80%;
     left:50%;
