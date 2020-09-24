@@ -45,3 +45,8 @@ p{
   font-size: 0.5vw;
   margin-top: 25%;
 }
+@media(max-width 750px){
+  .copy-write{
+    text-align: center;
+    font-size: 1vw;
+}
